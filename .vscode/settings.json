@@ -1,0 +1,17 @@
+{
+    "serverlessConsole.services": [
+        {
+            "type": "cloudformation",
+            "title": "fake soap",
+            "timeOffsetInMs": 0,
+            "awsProfile": "default",
+            "stacks": [
+                {
+                    "region": "us-east-2",
+                    "stackName": "AwSfakeSoapServiceStack",
+                    "stage": "dev"
+                }
+            ]
+        }
+    ]
+}
